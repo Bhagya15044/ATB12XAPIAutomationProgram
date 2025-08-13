@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/kisho/IdeaProjects/ATB12XAPIAutomationProgram/src/test/java/ex_04_RestAssured_HTTP_Methods/POST/API_TESTING_10_POST_BDD_STYLE.java">
+        <parameter name="browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="TestNG_examples.APITesting_TestNG_Parameters">
+                <methods>
+                    <include name="test_AUTH_TOKEN"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kisho/IdeaProjects/ATB12XAPIAutomationProgram">
+        <classes>
+            <class name="TestNG_Allure_Report.APITesting_Lab06_Testcase">
+                <methods>
+                    <include name="test_GET_POSITIVE_TC1"/>
+                    <include name="test_GET_NEGATIVE_TC2"/>
+                </methods>
+            </class>
+            <class name="TestNG_Allure_Report.APITesting_Lab07_Testcase">
+                <methods>
+                    <include name="Test_01"/>
+                    <include name="Test_02"/>
+                    <include name="Test_03"/>
+                </methods>
+            </class>
+            <class name="TestNG_examples.API_Testing_Before_test">
+                <methods>
+                    <include name="test_put"/>
+                </methods>
+            </class>
+            <class name="TestNG_examples.API_Testing_TestNG_Priority">
+                <methods>
+                    <include name="T1"/>
+                    <include name="T2"/>
+                    <include name="T3"/>
+                    <include name="T4"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.GET.API_TESTING_008_BDD_STYLE">
+                <methods>
+                    <include name="test_Get_positive"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.GET.API_TESTING_009_NON_BDD_STYLE">
+                <methods>
+                    <include name="test_NON_BDD_STYLE"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.PATCH.API_TESTING_13_PATCH_NON_BDD_STYLE">
+                <methods>
+                    <include name="test_NON_BDD"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.POST.API_TESTING_10_POST_BDD_STYLE">
+                <methods>
+                    <include name="test_AUTH_TOKEN"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.POST.API_TESTING_11_POST_NON_BDD_STYLE">
+                <methods>
+                    <include name="test_post_NON_BDD_STLE_Create_Token"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.PUT.API_Testing_12_PUT_NON_BDD_STYLE">
+                <methods>
+                    <include name="test_NON_BDD"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
